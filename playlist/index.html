@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Playlist App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Playlist App</h1>
+  </header>
+  <main>
+    <section class="playlist">
+      <h2>Playlist</h2>
+      <ul id="playlist-list"></ul>
+    </section>
+    <section class="controls">
+      <button id="add-music-btn">Adicionar Música</button>
+      <button id="remove-music-btn">Remover Música</button>
+      <button id="play-music-btn">Tocar Música</button>
+      <button id="insert-music-btn">Inserir Música em Determinado Índice</button>
+      <button id="remove-music-at-index-btn">Remover Música de Determinado Índice</button>
+    </section>
+    <section class="music-form">
+      <h2>Adicionar Música</h2>
+      <form>
+        <label for="title">Título:</label>
+        <input type="text" id="title" name="title">
+        <label for="artist">Artista:</label>
+        <input type="text" id="artist" name="artist">
+        <button id="submit-music-btn">Adicionar</button>
+      </form>
+    </section>
+    <section class="insert-music-form">
+      <h2>Inserir Música em Determinado Índice</h2>
+      <form>
+        <label for="title">Título:</label>
+        <input type="text" id="title" name="title">
+        <label for="artist">Artista:</label>
+        <input type="text" id="artist" name="artist">
+        <label for="insert-index">Índice:</label>
+        <input type="number" id="insert-index" name="insert-index">
+        <button id="insert-btn">Inserir Música</button>
+      </form>
+    </section>
+    <section class="remove-music-at-index-form">
+      <h2>Remover Música de Determinado Índice</h2>
+      <form>
+        <label for="remove-index">Índice:</label>
+        <input type="number" id="remove-index" name="remove-index">
+        <button id="remove-btn">Remover Música</button>
+      </form>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>

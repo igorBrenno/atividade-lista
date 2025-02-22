@@ -1,0 +1,113 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.playlist {
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.playlist ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.playlist li {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.playlist li:last-child {
+  border-bottom: none;
+}
+
+.controls {
+  margin-top: 20px;
+}
+
+button {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #444;
+}
+
+.music-form {
+  margin-top: 20px;
+}
+
+.music-form label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.music-form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+}
+
+.insert-music-form {
+  margin-top: 20px;
+}
+
+.insert-music-form label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.insert-music-form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+}
+
+.remove-music-at-index-form {
+  margin-top: 20px;
+}
+
+.remove-music-at-index-form label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.remove-music-at-index-form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+}
